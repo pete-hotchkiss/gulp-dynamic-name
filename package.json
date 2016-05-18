@@ -1,0 +1,44 @@
+{
+  "name": "gulp-dynamic-name",
+  "version": "1.0.0",
+  "description": "Dynamically rename files during a jade build process",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "homepage": "https://github.com/pete-hotchkiss/gulp-dynamic-name",
+  "bugs": "https://github.com/pete-hotchkiss/gulp-dynamic-name/issues",
+  "author": {
+    "name": "Pete Hotchkiss",
+    "email": "pete@pheekaboo.io",
+    "url": "http://pheekaboo.io"
+  },
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pete-hotchkiss/gulp-dynamic-name.git"
+  },
+  "scripts": {
+    "pretest": "jscs index.js test/ && jshint index.js test/",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp": ">=3.0.0",
+    "gulp-intercept": "^0.1.0",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-util": "^3.0.4",
+    "jscs": "^1.12.0",
+    "jshint": "^2.6.3",
+    "line-reader": "^0.2.4",
+    "map-stream": ">=0.0.4",
+    "mocha": ">=1.15.0",
+    "should": ">=2.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
